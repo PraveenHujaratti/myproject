@@ -1,0 +1,55 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../assets/image/world.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card {
+    width: 350px;
+    max-height: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(1.5px);
+    -webkit-backdrop-filter: blur(1.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    transition: all 1s ease;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px 10px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #f093fb;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.list {
+    text-align: left;
+    padding: 0;
+    font-size: 18px;
+}
+
+.list li {
+    list-style-type: none;
+    color: #ffffff;
+    font-weight: 500;
+    line-height: 2;
+}
+
+.list i {
+    font-size: 18px;
+    margin-right: 20px;
+}
